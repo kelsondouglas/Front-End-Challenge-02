@@ -1,0 +1,111 @@
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{ 
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 50%;
+}
+
+.text h1{
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    color: hsl(234, 12%, 34%);
+}
+
+.text h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: hsl(234, 12%, 34%);
+}
+
+.text p {
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+
+}
+
+.box{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    margin: 15px auto;
+    padding: 30px;
+    border-top: 4px black solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 0.1px rgba(000, 000, 000, 0.2);
+}
+
+.red {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.cyan {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.orange {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.blue {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box h1 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+}
+
+.box p {
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+}
+
+.mid-box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.mid-box .box {
+    width: 100%;
+}
+
+.box img {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
