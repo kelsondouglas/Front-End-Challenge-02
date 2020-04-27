@@ -17,4 +17,4 @@ Frontend Mentor é um website que disponibiliza desafios para serem realizados, 
     [x] Criar a versão Desktop da Pagina. 
     [x] Adicionar a versão Mobile(responsividade) da Pagina.
 
-
+ACESSE O PROJETO PELO LINK: [ACESSAR O PROJETO](https://front-end-challenge-02.kelsondouglas.now.sh/)
