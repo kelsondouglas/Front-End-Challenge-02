@@ -109,3 +109,15 @@ body {
     bottom: 30px;
     right: 30px;
 }
+
+/* Responsividade  */
+
+@media (max-width:800px ) {
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box, .mid-box {
+        width: 80%;
+    }
+}

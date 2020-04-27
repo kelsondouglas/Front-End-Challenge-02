@@ -14,7 +14,7 @@ Thanks for checking out this front-end coding challenge.
 
 Frontend Mentor é um website que disponibiliza desafios para serem realizados, onde é disponilibizado um layout em JPEG e recursos como as imagens e tipos de fontes e o desenvolvedor tem como objetivo transformar em um website real.
 
-    [] Criar a versão Desktop da Pagina. 
-    [] Adicionar a versão Mobile(responsividade) da Pagina.
+    [x] Criar a versão Desktop da Pagina. 
+    [x] Adicionar a versão Mobile(responsividade) da Pagina.
 
 
